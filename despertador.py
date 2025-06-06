@@ -12,7 +12,7 @@ print(f"\r {agora}")
 
 #som do alarme
 def som():
-    os.system(r'start "" "C:\Users\kauah\OneDrive\100days100codes\dia_01\despertador.mp3"')
+    os.system(r'start "" ""') #SALVE O CAMINHO DO AUDIO AQUI
     
 #programação do alarme
 alarme = input("Digite a Hora do Alarme (HH:MM) em formato 24h: ")
